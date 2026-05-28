@@ -14,4 +14,5 @@ data class User(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false, insertable = false)
     val id: Int? = null,
+    var name: String?
 )
